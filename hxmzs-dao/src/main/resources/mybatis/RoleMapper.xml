@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lockbur.book.dao.RoleDao">
+
+
+    <resultMap id="roleEntity" type="com.lockbur.book.domain.RoleEntity">
+        <id property="id" column="id"></id>
+
+        <result property="value" column="value"></result>
+        <result property="description" column="description"></result>
+        <result property="creatorId" column="creator_id"></result>
+
+        <result property="createdTime" column="created_time"></result>
+        <result property="modifiedTime" column="modified_time"></result>
+    </resultMap>
+
+    <insert id="insert" parameterType="com.lockbur.book.domain.RoleEntity" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO tb_role
+        (
+          name,value,description,creator_id,created_time,modified_time
+        )
+        VALUES
+        (
+         #{name}, #{value},#{description},#{creatorId},now(),now()
+        )
+    </insert>
+
+    <!-- 通过用户ID查询对应角色 -->
+    <select id="findRolesByAdmin" resultMap="roleEntity">
+        SELECT
+         tr.*
+        FROM tb_role tr
+        INNER JOIN tb_admin_role tar ON tr.id = tar.role_id
+        WHERE tar.admin_id = #{adminId}
+    </select>
+
+</mapper>

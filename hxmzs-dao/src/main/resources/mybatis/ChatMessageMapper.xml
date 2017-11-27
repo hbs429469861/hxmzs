@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lockbur.book.dao.ChatMessageDao">
+
+    <resultMap id="ackMessage" type="com.lockbur.book.domain.ChatMessageEntity">
+        <id property="id" column="id"></id>
+        <result property="roomId" column="room_id"></result>
+        <result property="uid" column="uid"></result>
+        <result property="rank" column="rank"></result>
+        <result property="text" column="text"></result>
+        <result property="createdTime" column="created_time"></result>
+        <result property="modifiedTime" column="modified_time"></result>
+    </resultMap>
+
+    <insert id="insert" parameterType="com.lockbur.book.domain.ChatMessageEntity" useGeneratedKeys="true"
+            keyProperty="id">
+        INSERT INTO tb_chat_message
+        (
+        room_id,uid,rank,text,created_time,modified_time
+        )
+        VALUES
+        (
+          #{roomId},#{uid},#{rank},#{text},now(),now()
+        )
+    </insert>
+
+</mapper>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lockbur.book.dao.ServiceProjectDao">
+
+
+    <resultMap id="serviceProjectEntity" type="com.lockbur.book.domain.ServiceProjectEntity">
+        <id property="id" column="id"></id>
+
+        <result property="projectTitle" column="projectTitle"></result>
+        <result property="projectType" column="projectType"></result>
+        <result property="projectPrice" column="projectPrice"></result>
+        <result property="projectNum" column="projectNum"></result>
+
+        <result property="status" column="status"></result>
+        <result property="createDate" column="createDate"></result>
+        <result property="updateDate" column="updateDate"></result>
+    </resultMap>
+
+    <insert id="add2ServiceProject" parameterType="com.lockbur.book.domain.ServiceProjectEntity" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO service_project
+        (
+        id,projectTitle,projectType,projectPrice,projectNum,status,createDate,updateDate
+        )
+        VALUES
+        (
+         #{id}, #{projectTitle},#{projectType},#{projectPrice},#{projectNum},#{status},now(),now()
+        )
+    </insert>
+
+    <select id="getTotalCount" resultType="int">
+
+        select count(*) from service_project
+
+    </select>
+
+
+    <select id="getServiceProjectEntityList" resultType="com.lockbur.book.domain.ServiceProjectEntity">
+        select *
+        from service_project ORDER BY createDate DESC
+        limit #{start},#{step}
+    </select>
+
+
+    <!--findByIdServiceProjectEntity-->
+    <select id="findByIdServiceProjectEntity" resultType="com.lockbur.book.domain.ServiceProjectEntity" parameterType="java.lang.Long">
+        select *
+        from service_project where id = #{id}
+    </select>
+
+    <delete id="deleteById" parameterType="java.lang.Long">
+        DELETE FROM service_project where id = #{id}
+    </delete>
+
+
+    <update id="updateByServiceProjectEntityId"  parameterType="com.lockbur.book.domain.ServiceProjectEntity" >
+        update service_project
+        <trim prefix="set" suffixOverrides=",">
+            <if test="projectTitle!=null">projectTitle=#{projectTitle},</if>
+            <if test="projectType!=null">projectType=#{projectType},</if>
+            <if test="projectPrice!=null">projectPrice=#{projectPrice},</if>
+            <if test="projectNum!=null">projectNum=#{projectNum},</if>
+            <if test="status!=null">status=#{status},</if>
+            createDate = now(),
+        </trim>
+        WHERE id=#{id}
+    </update>
+
+    <!--showServiceProjectList-->
+    <select id="showServiceProjectList" resultType="com.lockbur.book.domain.ServiceProjectEntity">
+       select *
+    from service_project  ORDER BY updateDate DESC LIMIT 0,4
+    </select>
+
+</mapper>

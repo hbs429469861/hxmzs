@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lockbur.book.dao.OurTeamDao">
+
+
+    <resultMap id="ourTeamEntity" type="com.lockbur.book.domain.OurTeamEntity">
+        <id property="id" column="id"></id>
+
+        <result property="teamTitle" column="teamTitle"></result>
+        <result property="teamContent" column="teamContent"></result>
+
+        <result property="teamProfessional" column="teamProfessional"></result>
+        <result property="teamImgUrl" column="teamImgUrl"></result>
+
+        <result property="status" column="status"></result>
+        <result property="createDate" column="createDate"></result>
+        <result property="updateDate" column="updateDate"></result>
+    </resultMap>
+
+    <insert id="add2OurTeam" parameterType="com.lockbur.book.domain.OurTeamEntity" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO our_team
+        (
+        id,teamTitle,teamContent,teamProfessional,teamImgUrl,status,createDate,updateDate
+        )
+        VALUES
+        (
+         #{id}, #{teamTitle},#{teamContent},#{teamProfessional},#{teamImgUrl},#{status},now(),now()
+        )
+    </insert>
+
+    <select id="getTotalCount" resultType="int">
+
+        select count(*) from our_team
+
+    </select>
+
+
+    <select id="getOurTeamEntityList" resultType="com.lockbur.book.domain.OurTeamEntity">
+        select *
+        from our_team ORDER BY createDate DESC
+        limit #{start},#{step}
+    </select>
+
+
+    <!--findByIdOurTeamEntity-->
+    <select id="findByIdOurTeamEntity" resultType="com.lockbur.book.domain.OurTeamEntity" parameterType="java.lang.Long">
+        select *
+        from our_team where id = #{id}
+    </select>
+
+    <delete id="deleteById" parameterType="java.lang.Long">
+        DELETE FROM our_team where id = #{id}
+    </delete>
+
+
+    <update id="updateByOurTeamEntityId"  parameterType="com.lockbur.book.domain.OurTeamEntity" >
+        update our_team
+        <trim prefix="set" suffixOverrides=",">
+            <if test="teamTitle!=null">teamTitle=#{teamTitle},</if>
+            <if test="teamContent!=null">teamContent=#{teamContent},</if>
+            <if test="teamProfessional!=null">teamProfessional=#{teamProfessional},</if>
+            <if test="teamImgUrl!=null">teamImgUrl=#{teamImgUrl},</if>
+            <if test="status!=null">status=#{status},</if>
+            updateDate = now(),
+        </trim>
+        WHERE id=#{id}
+    </update>
+
+    <!--showOurTeamList-->
+    <select id="showOurTeamList" resultType="com.lockbur.book.domain.OurTeamEntity">
+        select *
+        from our_team  ORDER BY updateDate DESC LIMIT 0,3
+    </select>
+
+</mapper>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lockbur.book.dao.ServicesDao">
+
+
+    <resultMap id="servicesEntity" type="com.lockbur.book.domain.ServicesEntity">
+        <id property="id" column="id"></id>
+
+        <result property="serviceTitle" column="serviceTitle"></result>
+        <result property="serviceIntroduce" column="serviceIntroduce"></result>
+        <result property="serviceClass" column="serviceClass"></result>
+
+        <result property="status" column="status"></result>
+        <result property="createDate" column="createDate"></result>
+        <result property="updateDate" column="updateDate"></result>
+    </resultMap>
+
+    <insert id="add2Services" parameterType="com.lockbur.book.domain.ServicesEntity" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO services
+        (
+        id,serviceTitle,serviceIntroduce,serviceClass,status,createDate,updateDate
+        )
+        VALUES
+        (
+         #{id}, #{serviceTitle},#{serviceIntroduce},#{serviceClass},#{status},now(),now()
+        )
+    </insert>
+
+    <select id="getTotalCount" resultType="int">
+
+        select count(*) from services
+
+    </select>
+
+
+    <select id="getServicesEntityList" resultType="com.lockbur.book.domain.ServicesEntity">
+        select *
+        from services ORDER BY createDate DESC
+        limit #{start},#{step}
+    </select>
+
+
+    <!--findByIdServicesEntity-->
+    <select id="findByIdServicesEntity" resultType="com.lockbur.book.domain.ServicesEntity" parameterType="java.lang.Long">
+        select *
+        from services where id = #{id}
+    </select>
+
+    <delete id="deleteById" parameterType="java.lang.Long">
+        DELETE FROM services where id = #{id}
+    </delete>
+
+
+    <update id="updateByServicesEntityId"  parameterType="com.lockbur.book.domain.ServicesEntity" >
+        update services
+        <trim prefix="set" suffixOverrides=",">
+            <if test="serviceTitle!=null">serviceTitle=#{serviceTitle},</if>
+            <if test="serviceIntroduce!=null">serviceIntroduce=#{serviceIntroduce},</if>
+            <if test="serviceClass!=null">serviceClass=#{serviceClass},</if>
+            <if test="status!=null">status=#{status},</if>
+            updateDate = now(),
+        </trim>
+        WHERE id=#{id}
+    </update>
+
+    <!--showServiceList-->
+    <select id="showServiceList" resultType="com.lockbur.book.domain.ServicesEntity">
+        select * from services ORDER BY updateDate DESC LIMIT 0,4
+    </select>
+
+</mapper>

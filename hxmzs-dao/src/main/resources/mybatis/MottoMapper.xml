@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lockbur.book.dao.MottoDao">
+
+
+    <resultMap id="mottoEntity" type="com.lockbur.book.domain.MottoEntity">
+        <id property="id" column="id"></id>
+
+        <result property="mottoTitle" column="mottoTitle"></result>
+        <result property="mottoDesc" column="mottoDesc"></result>
+
+        <result property="mottoAuthor" column="mottoAuthor"></result>
+        <result property="status" column="status"></result>
+
+
+        <result property="createDate" column="createDate"></result>
+        <result property="updateDate" column="updateDate"></result>
+    </resultMap>
+
+    <insert id="add2Motto" parameterType="com.lockbur.book.domain.MottoEntity" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO motto
+        (
+        id,mottoTitle,mottoDesc,mottoAuthor,status,createDate,updateDate
+        )
+        VALUES
+        (
+         #{id}, #{mottoTitle},#{mottoDesc},#{mottoAuthor},#{status},now(),now()
+        )
+    </insert>
+
+    <select id="getTotalCount" resultType="int">
+
+        select count(*) from motto
+
+    </select>
+
+
+    <select id="getMottoEntityList" resultType="com.lockbur.book.domain.MottoEntity">
+        select *
+        from motto ORDER BY createDate DESC
+        limit #{start},#{step}
+    </select>
+
+
+    <!--findByIdMottoEntity-->
+    <select id="findByIdMottoEntity" resultType="com.lockbur.book.domain.MottoEntity" parameterType="java.lang.Long">
+        select *
+        from motto where id = #{id}
+    </select>
+
+    <delete id="deleteById" parameterType="java.lang.Long">
+        DELETE FROM motto where id = #{id}
+    </delete>
+
+
+    <update id="updateByMottoEntityId"  parameterType="com.lockbur.book.domain.MottoEntity" >
+        update motto
+        <trim prefix="set" suffixOverrides=",">
+            <if test="mottoTitle!=null">mottoTitle=#{mottoTitle},</if>
+            <if test="mottoDesc!=null">mottoDesc=#{mottoDesc},</if>
+            <if test="mottoAuthor!=null">mottoAuthor=#{mottoAuthor},</if>
+            <if test="status!=null">status=#{status},</if>
+            createDate = now(),
+        </trim>
+        WHERE id=#{id}
+    </update>
+
+
+    <select id="showMottoList" resultType="com.lockbur.book.domain.MottoEntity">
+        select *
+        from motto  ORDER BY updateDate DESC LIMIT 0,4
+    </select>
+
+</mapper>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lockbur.book.dao.ContactDao">
+
+
+    <resultMap id="contactEntity" type="com.lockbur.book.domain.ContactEntity">
+        <id property="id" column="id"></id>
+
+        <result property="contactTitle" column="contactTitle"></result>
+        <result property="contactDesc" column="contactDesc"></result>
+
+        <result property="contactContent" column="contactContent"></result>
+        <result property="contactAddress" column="contactAddress"></result>
+        <result property="contectPhone" column="contectPhone"></result>
+
+        <result property="contactEmail" column="contactEmail"></result>
+        <result property="status" column="status"></result>
+
+
+        <result property="createDate" column="createdTime"></result>
+        <result property="updateDate" column="updateDate"></result>
+    </resultMap>
+
+    <insert id="add2Contact" parameterType="com.lockbur.book.domain.ContactEntity" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO contact
+        (
+        id,contactTitle,contactDesc,contactContent,contactAddress,contactPhone,contactEmail,status,createDate,updateDate
+        )
+        VALUES
+        (
+         #{id}, #{contactTitle},#{contactDesc},#{contactContent},#{contactAddress},#{contactPhone},#{contactEmail},#{status},now(),now()
+        )
+    </insert>
+
+    <select id="getTotalCount" resultType="int">
+
+        select count(*) from contact
+
+    </select>
+
+
+    <select id="getContactEntityList" resultType="com.lockbur.book.domain.ContactEntity">
+        select *
+        from contact ORDER BY updateDate DESC
+        limit #{start},#{step}
+    </select>
+
+
+    <!--findByIdContactEntity-->
+    <select id="findByIdContactEntity" resultType="com.lockbur.book.domain.ContactEntity" parameterType="java.lang.Long">
+        select *
+        from contact where id = #{id}
+    </select>
+
+    <delete id="deleteById" parameterType="java.lang.Long">
+        DELETE FROM contact where id = #{id}
+    </delete>
+
+
+    <update id="updateByContactEntityId"  parameterType="com.lockbur.book.domain.ContactEntity" >
+        update contact
+        <trim prefix="set" suffixOverrides=",">
+            <if test="contactTitle!=null">contactTitle=#{contactTitle},</if>
+            <if test="contactDesc!=null">contactDesc=#{contactDesc},</if>
+            <if test="contactContent!=null">contactContent=#{contactContent},</if>
+            <if test="contactAddress!=null">contactAddress=#{contactAddress},</if>
+            <if test="contactPhone!=null">contactPhone=#{contactPhone},</if>
+            <if test="contactEmail!=null">contactEmail=#{contactEmail},</if>
+            <if test="status!=null">status=#{status},</if>
+            updateDate = now(),
+        </trim>
+        WHERE id=#{id}
+    </update>
+
+
+    <!--showContactList-->
+    <select id="showContactList" resultType="com.lockbur.book.domain.ContactEntity" >
+        select *
+        from contact ORDER BY updateDate DESC LIMIT 0,1
+    </select>
+
+</mapper>

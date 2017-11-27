@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lockbur.book.dao.AuthorityDao">
+
+
+    <resultMap id="authorityEntity" type="com.lockbur.book.domain.AuthorityEntity">
+        <id property="id" column="id"></id>
+
+        <result property="roleId" column="role_id"></result>
+        <result property="authority" column="authority"></result>
+        <result property="creatorId" column="creator_id"></result>
+
+        <result property="createdTime" column="created_time"></result>
+        <result property="modifiedTime" column="modified_time"></result>
+    </resultMap>
+
+    <insert id="insert" parameterType="com.lockbur.book.domain.AuthorityEntity" useGeneratedKeys="true"
+            keyProperty="id">
+        INSERT INTO tb_authority
+        (
+          role_id,authority,creator_id,created_time,modified_time
+        )
+        VALUES
+        (
+         #{roleId}, #{authority},#{creatorId},now(),now()
+        )
+    </insert>
+
+    <select id="findAuthorityByRole" resultType="String">
+        SELECT authority FROM tb_authority
+        WHERE
+        role_id in
+        <foreach item="item" index="index" collection="list" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </select>
+
+</mapper>

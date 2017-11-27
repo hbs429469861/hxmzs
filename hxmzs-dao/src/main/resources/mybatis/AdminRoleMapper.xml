@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lockbur.book.dao.AdminRoleDao">
+
+
+    <resultMap id="adminRoleEntity" type="com.lockbur.book.domain.AdminRoleEntity">
+        <result property="adminId" column="admin_id"></result>
+        <result property="roleId" column="role_id"></result>
+        <result property="creatorId" column="creator_id"></result>
+
+        <result property="createdTime" column="created_time"></result>
+        <result property="modifiedTime" column="modified_time"></result>
+    </resultMap>
+
+    <insert id="insert" parameterType="com.lockbur.book.domain.AdminRoleEntity" useGeneratedKeys="true"
+            keyProperty="id">
+        INSERT INTO tb_admin_role
+        (
+          admin_id,role_id,creator_id,created_time,modified_time
+        )
+        VALUES
+        (
+         #{adminId}, #{roleId},#{creatorId},now(),now()
+        )
+    </insert>
+
+    <select id="findRoleIdsByAdmin" resultType="Long">
+        SELECT
+        tar.role_id
+        FROM tb_admin_role tar
+        LEFT JOIN tb_role tr ON tr.id = tar.role_id
+        WHERE tar.admin_id = #{adminId}
+    </select>
+
+
+</mapper>

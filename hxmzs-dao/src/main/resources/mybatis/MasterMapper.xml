@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lockbur.book.dao.MasterDao">
+
+
+    <resultMap id="masterEntity" type="com.lockbur.book.domain.MasterEntity">
+        <id property="id" column="id"></id>
+
+        <result property="masterName" column="masterName"></result>
+        <result property="masterEmail" column="masterEmail"></result>
+
+        <result property="masterAddress" column="masterAddress"></result>
+
+
+        <result property="status" column="status"></result>
+        <result property="createDate" column="createDate"></result>
+        <result property="updateDate" column="updateDate"></result>
+    </resultMap>
+
+    <insert id="add2Master" parameterType="com.lockbur.book.domain.MasterEntity" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO master
+        (
+        id,masterName,masterEmail,masterAddress,status,createDate,updateDate
+        )
+        VALUES
+        (
+         #{id}, #{masterName},#{masterEmail},#{masterAddress},#{status},now(),now()
+        )
+    </insert>
+
+    <select id="getTotalCount" resultType="int">
+
+        select count(*) from master
+
+    </select>
+
+
+    <select id="getMasterEntityList" resultType="com.lockbur.book.domain.MasterEntity">
+        select *
+        from master ORDER BY createDate DESC
+        limit #{start},#{step}
+    </select>
+
+
+    <!--findByIdMasterEntity-->
+    <select id="findByIdMasterEntity" resultType="com.lockbur.book.domain.MasterEntity" parameterType="java.lang.Long">
+        select *
+        from master where id = #{id}
+    </select>
+
+    <delete id="deleteById" parameterType="java.lang.Long">
+        DELETE FROM master where id = #{id}
+    </delete>
+
+
+    <update id="updateByMasterEntityId"  parameterType="com.lockbur.book.domain.MasterEntity" >
+        update master
+        <trim prefix="set" suffixOverrides=",">
+            <if test="masterName!=null">masterName=#{masterName},</if>
+            <if test="masterEmail!=null">masterEmail=#{masterEmail},</if>
+            <if test="masterAddress!=null">masterAddress=#{masterAddress},</if>
+            <if test="status!=null">status=#{status},</if>
+            createDate = now(),
+        </trim>
+        WHERE id=#{id}
+    </update>
+
+
+    <select id="showMasterList" resultType="com.lockbur.book.domain.MasterEntity">
+        select *
+        from master  ORDER BY updateDate DESC LIMIT 0,4
+    </select>
+
+    <!--selectByCondition-->
+    <select id="selectByCondition" resultType="int">
+
+        select count(*) from master where masterName=#{masterName} and masterEmail=#{masterEmail}
+
+    </select>
+
+</mapper>
