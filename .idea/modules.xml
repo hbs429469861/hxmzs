@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Parent.iml" filepath="$PROJECT_DIR$/Parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hxmzs-common/hxmzs-common.iml" filepath="$PROJECT_DIR$/hxmzs-common/hxmzs-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hxmzs-dao/hxmzs-dao.iml" filepath="$PROJECT_DIR$/hxmzs-dao/hxmzs-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hxmzs-domain/hxmzs-domain.iml" filepath="$PROJECT_DIR$/hxmzs-domain/hxmzs-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hxmzs-facility/hxmzs-facility.iml" filepath="$PROJECT_DIR$/hxmzs-facility/hxmzs-facility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hxmzs-gateway/hxmzs-gateway.iml" filepath="$PROJECT_DIR$/hxmzs-gateway/hxmzs-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hxmzs-service/hxmzs-service.iml" filepath="$PROJECT_DIR$/hxmzs-service/hxmzs-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hxmzs-web/hxmzs-web.iml" filepath="$PROJECT_DIR$/hxmzs-web/hxmzs-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hxmzs-web-manager/hxmzs-web-manager.iml" filepath="$PROJECT_DIR$/hxmzs-web-manager/hxmzs-web-manager.iml" />
+    </modules>
+  </component>
+</project>

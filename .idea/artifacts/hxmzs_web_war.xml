@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hxmzs-web:war">
+    <output-path>$PROJECT_DIR$/hxmzs-web/target</output-path>
+    <root id="archive" name="hxmzs-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="hxmzs-web:war exploded" />
+    </root>
+  </artifact>
+</component>

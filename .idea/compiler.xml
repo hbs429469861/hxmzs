@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hxmzs-common" />
+        <module name="hxmzs-dao" />
+        <module name="hxmzs-domain" />
+        <module name="hxmzs-facility" />
+        <module name="hxmzs-gateway" />
+        <module name="hxmzs-service" />
+        <module name="hxmzs-web" />
+        <module name="hxmzs-web-manager" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+      <module name="hxmzs-common" target="1.8" />
+      <module name="hxmzs-dao" target="1.8" />
+      <module name="hxmzs-domain" target="1.8" />
+      <module name="hxmzs-facility" target="1.8" />
+      <module name="hxmzs-gateway" target="1.8" />
+      <module name="hxmzs-service" target="1.8" />
+      <module name="hxmzs-web" target="1.8" />
+      <module name="hxmzs-web-manager" target="1.8" />
+      <module name="Parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
