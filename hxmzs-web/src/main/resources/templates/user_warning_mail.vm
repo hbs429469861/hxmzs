@@ -1,0 +1,7 @@
+<html>
+<head></head>
+<body><h1>hello! ${username}&nbsp;&nbsp;&nbsp;&nbsp;进行系统管理的删除操作}</h1>
+<p>(这是一封自动产生的email，请勿回复。)</p><br>
+<p style="color: red">${url}</p><br>
+</body>
+</html>

@@ -9,7 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/hxmzs-web-manager/src/main/webapp/WEB-INF/views/index.jsp" description="&lt;jsp:include page=&quot;/WEB-INF/views/heade.jsp&quot;/&gt;" line="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d60bc37-1ce7-47fb-865b-e4a967b08983" name="Default" comment="">
+    <list default="true" id="6d60bc37-1ce7-47fb-865b-e4a967b08983" name="Default" comment="hxmzs first commit">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-web-manager/src/main/webapp/assets/assets/css/icons/fontawesome/fonts/FontAwesome.otf" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-web-manager/src/main/webapp/assets/assets/css/icons/fontawesome/fonts/fontawesome-webfont.eot" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-web-manager/src/main/webapp/assets/assets/css/icons/fontawesome/fonts/fontawesome-webfont.ttf" />
@@ -542,237 +542,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-web/src/main/webapp/assets/style/type/fontello/fontello.eot" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-web/src/main/webapp/assets/style/type/fontello/fontello.ttf" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-web/src/main/webapp/assets/style/type/fontello/fontello.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/hxmzs_facility_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/hxmzs_facility_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/hxmzs_web_manager_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/hxmzs_web_manager_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/hxmzs_web_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/hxmzs_web_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_4_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ibm_icu_icu4j_2_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_3_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_3_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_web_api_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_0_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jdom_jdom_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_ehcache_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_4_3_2_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_CR2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_12_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_1_4_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_1_4_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_6_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_2_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_2_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_6_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xmlParserAPIs_2_6_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_3_02.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xom_xom_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Parent.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-common/hxmzs-common.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-common/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-common/src/main/java/com/lockbur/book/common/system/BaseConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-common/src/main/java/com/lockbur/book/common/system/Features.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-common/src/main/java/com/lockbur/book/common/system/SystemConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-common/src/main/java/com/lockbur/book/common/utils/MD5Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-common/src/main/java/com/lockbur/book/common/utils/MapToXMLString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-common/src/main/java/com/lockbur/book/common/utils/Page1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-common/src/main/java/com/lockbur/book/common/utils/Result.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-common/src/main/java/com/lockbur/book/common/utils/StringUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/hxmzs-dao.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/java/com/lockbur/book/dao/AdminDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/java/com/lockbur/book/dao/AdminRoleDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/java/com/lockbur/book/dao/AuthorityDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/java/com/lockbur/book/dao/CaseProjectDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/java/com/lockbur/book/dao/ChatMessageDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/java/com/lockbur/book/dao/ContactDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/java/com/lockbur/book/dao/HomeDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/java/com/lockbur/book/dao/LogsDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/java/com/lockbur/book/dao/MasterDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/java/com/lockbur/book/dao/MottoDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/java/com/lockbur/book/dao/OurTeamDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/java/com/lockbur/book/dao/RoleDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/java/com/lockbur/book/dao/ServiceProjectDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/java/com/lockbur/book/dao/ServicesDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/resources/mybatis/AdminMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/resources/mybatis/AdminRoleMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/resources/mybatis/AuthorityMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/resources/mybatis/CaseProjectMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/resources/mybatis/ChatMessageMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/resources/mybatis/ContactMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/resources/mybatis/HomeMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/resources/mybatis/LogsMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/resources/mybatis/MasterMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/resources/mybatis/MottoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/resources/mybatis/OurTeamMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/resources/mybatis/RoleMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/resources/mybatis/ServiceProjectMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-dao/src/main/resources/mybatis/ServicesMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-domain/hxmzs-domain.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-domain/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-domain/src/main/java/com/lockbur/book/domain/Admin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-domain/src/main/java/com/lockbur/book/domain/AdminEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-domain/src/main/java/com/lockbur/book/domain/AdminRoleEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-domain/src/main/java/com/lockbur/book/domain/AuthorityEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-domain/src/main/java/com/lockbur/book/domain/CaseProjectEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-domain/src/main/java/com/lockbur/book/domain/ChatMessageEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-domain/src/main/java/com/lockbur/book/domain/ContactEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-domain/src/main/java/com/lockbur/book/domain/HomeEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-domain/src/main/java/com/lockbur/book/domain/LogsEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-domain/src/main/java/com/lockbur/book/domain/MasterEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-domain/src/main/java/com/lockbur/book/domain/MottoEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-domain/src/main/java/com/lockbur/book/domain/OurTeamEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-domain/src/main/java/com/lockbur/book/domain/RoleEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-domain/src/main/java/com/lockbur/book/domain/ServiceProjectEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-domain/src/main/java/com/lockbur/book/domain/ServicesEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/hxmzs-facility.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/main/resources/default.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/main/resources/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/main/resources/log4j.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/main/resources/spring-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/main/resources/spring/spring-dubbo.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/main/resources/spring/spring-mybatis.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/main/resources/templates/user_register_mail.vm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/main/resources/velocity.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/main/webapp/sql/biz.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/test/java/com/lockbur/book/test/App.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/test/java/com/lockbur/book/test/SendMailTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/test/java/com/lockbur/book/test/TestBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/test/java/com/lockbur/book/test/TestMapToXml.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/test/java/com/lockbur/book/test/dao/AdminDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/test/java/com/lockbur/book/test/dao/AdminRoleDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/test/java/com/lockbur/book/test/dao/AuthorityDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/test/java/com/lockbur/book/test/dao/ChatMessageDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/test/java/com/lockbur/book/test/dao/RoleDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/test/java/com/lockbur/book/test/service/ConfigServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-facility/src/test/java/com/lockbur/book/test/service/RoleServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-gateway/hxmzs-gateway.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-gateway/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-gateway/src/main/java/com/lockbur/book/gateway/model/Admin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-gateway/src/main/java/com/lockbur/book/gateway/model/Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-gateway/src/main/java/com/lockbur/book/gateway/service/AdminService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-gateway/src/main/java/com/lockbur/book/gateway/service/CaseProjectService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-gateway/src/main/java/com/lockbur/book/gateway/service/ConfigService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-gateway/src/main/java/com/lockbur/book/gateway/service/ContactService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-gateway/src/main/java/com/lockbur/book/gateway/service/EmailService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-gateway/src/main/java/com/lockbur/book/gateway/service/HomeService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-gateway/src/main/java/com/lockbur/book/gateway/service/LogsService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-gateway/src/main/java/com/lockbur/book/gateway/service/MQProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-gateway/src/main/java/com/lockbur/book/gateway/service/MasterService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-gateway/src/main/java/com/lockbur/book/gateway/service/MottoService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-gateway/src/main/java/com/lockbur/book/gateway/service/OurTeamService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-gateway/src/main/java/com/lockbur/book/gateway/service/RoleService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-gateway/src/main/java/com/lockbur/book/gateway/service/ServiceProjectService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-gateway/src/main/java/com/lockbur/book/gateway/service/ServicesService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-gateway/src/main/java/com/lockbur/book/gateway/service/StorageService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-service/hxmzs-service.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-service/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-service/src/main/java/com/lockbur/book/service/impl/AdminServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-service/src/main/java/com/lockbur/book/service/impl/CaseProjectServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-service/src/main/java/com/lockbur/book/service/impl/ConfigServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-service/src/main/java/com/lockbur/book/service/impl/ContactServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-service/src/main/java/com/lockbur/book/service/impl/EmailServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-service/src/main/java/com/lockbur/book/service/impl/HomeServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-service/src/main/java/com/lockbur/book/service/impl/LogsServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-service/src/main/java/com/lockbur/book/service/impl/MQProducerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-service/src/main/java/com/lockbur/book/service/impl/MasterServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-service/src/main/java/com/lockbur/book/service/impl/MottoServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-service/src/main/java/com/lockbur/book/service/impl/OurTeamServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-service/src/main/java/com/lockbur/book/service/impl/QueueListenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-service/src/main/java/com/lockbur/book/service/impl/RoleServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-service/src/main/java/com/lockbur/book/service/impl/ServiceProjectServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-service/src/main/java/com/lockbur/book/service/impl/ServicesServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-service/src/main/java/com/lockbur/book/service/impl/StorageServiceImpl.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-web-manager/hxmzs-web-manager.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-web-manager/pom.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-web-manager/src/main/java/com/lockbur/book/manager/controller/AdminController.java" />
@@ -4471,7 +4240,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-web/src/main/webapp/assets/style/type/fontello/fontello-circle.svg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-web/src/main/webapp/assets/style/type/fontello/fontello-social.svg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxmzs-web/src/main/webapp/assets/style/type/fontello/fontello.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Parent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -5648,8 +5417,30 @@
       <workItem from="1498386589386" duration="678000" />
       <workItem from="1499732230434" duration="221000" />
       <workItem from="1511766945062" duration="6211000" />
-      <workItem from="1511773418906" duration="530000" />
+      <workItem from="1511773418906" duration="1214000" />
     </task>
+    <task id="LOCAL-00001" summary="hxmzs first commit parent">
+      <created>1511774519715</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511774519715</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hxmzs first commit">
+      <created>1511774653102</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1511774653102</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hxmzs first commit">
+      <created>1511774717331</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1511774717331</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -5685,7 +5476,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="370770000" />
+    <option name="totallyTimeSpent" value="371454000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -5752,6 +5543,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hxmzs first commit parent" />
+    <MESSAGE value="hxmzs first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="hxmzs first commit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -5775,6 +5571,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-361">
           <caret line="34" column="51" lean-forward="true" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -5805,6 +5602,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-608">
           <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding>
+            <marker date="1511770637291" expanded="false" signature="5496:5511" ph="&lt;~&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -5812,6 +5612,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -5842,6 +5643,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -5849,6 +5651,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1121">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -5856,6 +5659,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -5863,6 +5667,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -5870,6 +5675,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-113">
           <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -5877,6 +5683,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6017,6 +5824,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="341" column="47" lean-forward="true" selection-start-line="341" selection-start-column="47" selection-end-line="341" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6024,6 +5832,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-37">
           <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6031,6 +5840,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6038,6 +5848,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding>
+            <element signature="e#3102#3118#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
